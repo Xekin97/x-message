@@ -1,0 +1,31 @@
+{
+	"name": "message-hub-iframe",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"module": "dist/index.es.js",
+	"types": "dist/types/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "rm -rf ./dist && rollup -c rollup.config.js"
+	},
+	"keywords": [],
+	"author": "xekin",
+	"license": "ISC",
+	"devDependencies": {
+		"@rollup/plugin-babel": "^5.3.1",
+		"@rollup/plugin-commonjs": "^22.0.1",
+		"@rollup/plugin-json": "^4.1.0",
+		"@rollup/plugin-node-resolve": "^13.3.0",
+		"@rollup/plugin-typescript": "^8.3.3",
+		"@types/node": "^18.6.4",
+		"rollup-plugin-cleanup": "^3.2.1",
+		"rollup-plugin-peer-deps-external": "^2.2.4",
+		"rollup-plugin-terser": "^7.0.2",
+		"rollup-plugin-typescript2": "^0.32.1",
+		"tslib": "^2.4.0",
+		"typescript": "^4.7.4"
+	}
+}
